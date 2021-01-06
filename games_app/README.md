@@ -23,9 +23,10 @@ What process does the the client (front-end) use to communicate with the server?
 
 What optional second argument does the fetch method take? And what is it used for in this application? Hint: See Using Fetch on the MDN docs
     It takes an optional init object which allows you to set custom settings to the request. 
+    It passes the request method (i.e. DELETE and POST).
 
 Which of the games API routes does the front-end application consume (i.e. make requests to)?
-    ...I'm not sure. Is it this: http://localhost:5000/api/games/? Provided in GamesService.js 
+    Is it this: http://localhost:5000/api/games/? Provided in GamesService.js 
 
 What are we using the MongoDB Driver for?
     We use the mongoDB driver to connect to the database and work with that data by fetching it.
